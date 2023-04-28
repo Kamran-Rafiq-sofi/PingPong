@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    /* border: 1px solid black; */
+    position: relative;
+}
+#ball{
+    height: 20px;
+    width: 20px;
+    /* border:1px solid black; */
+    position: fixed;
+    border-radius: 50%;
+    background-color:red;
+    left:60%;
+    top:20px;
+}
+#Rod-1{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    width:200px;
+    background-color: blue;
+    border-radius: 10px;
+    /* border:1px solid black; */
+    position: fixed;
+    font-weight: bold;
+    top:0%;
+    left:50%;
+}
+#Rod-2{
+    height: 20px;
+    width:200px;
+    background-color: purple;
+    border-radius: 10px;
+    /* border:1px solid black; */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    bottom: 0%;
+    left:50%;
+}
